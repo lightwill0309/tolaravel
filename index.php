@@ -19,6 +19,9 @@
 .tourSea .tour {
   background-color:#1ec1e1;
 }
+.tourTounan .tour {
+  background-color:#0da;
+}
 .tourGroup {
   margin-bottom:5px;
 }
@@ -37,6 +40,11 @@
 <div class="tour">ハワイ</div>
 <div class="tour">グアム</div>
 <div class="tour">ドバイ</div>
+</div>
+<div class="tourGroup tourTounan">
+<div class="tour">タイ</div>
+<div class="tour">フィリピン</div>
+<div class="tour">シンガポール</div>
 </div>
 </body>
 </html>
