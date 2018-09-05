@@ -1,9 +1,12 @@
+<?php
+include(".env");
+?>
 <html>
 <head>
   <title>tolaravel</title>
 <style>
 #titleArea {
-  background-color:#1ab;
+  background-color:<?= ENV_COLOR_CODE ?>;
   color:#fff;
 }
 .tour {
@@ -29,7 +32,7 @@
 </head>
 <body>
 <div id="titleArea">
-  <h1>tolaravel</h1>
+  <h1>tolaravel [<?= APP_ENV ?>]</h1>
 </div>
 <div class="tourGroup tourCity">
 <div class="tour">東京</div>
