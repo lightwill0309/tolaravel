@@ -12,7 +12,6 @@ permissions:
     type:
       - file
 hooks:
-  ApplicationStart:
+  AfterInstall:
     - location: scripts/codedeploy_start.sh
       timeout: 180
-      runas: root
