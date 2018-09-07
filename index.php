@@ -5,9 +5,12 @@ include(".env");
 <head>
   <title>tolaravel</title>
 <style>
-#titleArea {
+#titleArea, #footer {
   background-color:<?= ENV_COLOR_CODE ?>;
   color:#fff;
+}
+#footer {
+  text-align:center;
 }
 .tour {
   display:inline-block;
@@ -48,6 +51,9 @@ include(".env");
 <div class="tour">ブラジル</div>
 <div class="tour">ジャマイカ</div>
 <div class="tour">コロンビア</div>
+</div>
+<div id="footer">
+  release <?= file_get_contents("deploy.log") ?>
 </div>
 </body>
 </html>
