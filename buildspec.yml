@@ -10,3 +10,7 @@ phases:
   post_build:
     commands:
       - mv .env.stg .env
+artifacts:
+  type: zip
+  files:
+    - /
