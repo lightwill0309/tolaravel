@@ -46,7 +46,7 @@
 </div>
 <div class="tourGroup tourTounan">
 <div class="tour">ブラジル</div>
-<div class="tour">ジャマイカ</div>
+<div class="tour">フィリピン</div>
 <div class="tour">オーストラリア</div>
 </div>
 <div id="footer">
