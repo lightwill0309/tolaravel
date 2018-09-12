@@ -47,7 +47,7 @@
 <div class="tourGroup tourTounan">
 <div class="tour">ブラジル</div>
 <div class="tour">ジャマイカ</div>
-<div class="tour">ボリビア</div>
+<div class="tour">オーストラリア</div>
 </div>
 <div id="footer">
   release <?= file_get_contents(base_path("deploy.log")) ?>
